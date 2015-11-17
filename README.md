@@ -1,16 +1,3 @@
-<head>
-	<style type="text/css">
-		ul.ingred{
-			color:gray !important;
-			padding-left:20px;
-		}
-		ul.ingred li {
-			margin:0 0 !important;
-		}			
-	</style>
-</head>
-<body>
-
 <h1>Code in your plate!</h1>
 
 <h3 style="padding-bottom:10px">Smoked salmon omelette with sprouts</h3>
