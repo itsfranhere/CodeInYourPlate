@@ -12,7 +12,6 @@
 <body>
 
 <h1>Code in your plate!</h1>
-___
 
 <h3 style="padding-bottom:10px">Smoked salmon omelette with sprouts</h3>
 
