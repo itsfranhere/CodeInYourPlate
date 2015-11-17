@@ -61,5 +61,3 @@ Wipe out the pan and return it to the heat, add a splash of oil and let it get n
 Cook until the eggs are just set, then lay half of the salmon on top and roll up to enclose. Slice the rolls in half and set aside. Repeat with the remaining ingredients to make another omelette roll.
 
 Arrange the pieces of omelette on top of the vegetables and serve with a little chilli sauce on the side.
-Read more at http://www.jamieoliver.com/recipes/eggs-recipes/smoked-salmon-omelette-with-sprouts/#WTprjh9S7oEAH8l7.99
-</body>
