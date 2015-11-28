@@ -1,0 +1,22 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper .sTitle {
+  padding-bottom:10px; 
+}
+
+.wrapper .subTitle {
+  margin-top: -10px;
+}
+
+.wrapper img {
+  width:290px; float:left; margin:0 40px 0 0
+}
+
+
+/* Adjustments */
+
+.clearfix {
+  clear:both;
+}
