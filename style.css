@@ -1,0 +1,165 @@
+/* Define layout */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width:100%;
+}
+
+h1, h2, h3, h4, span, p, ul li {
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
+ul, ol {
+  padding-left:0;
+}
+
+ol {
+  padding: 0;
+  list-style-type: none;
+}
+ol li
+{
+  counter-increment: item;
+  position:relative;
+}
+
+ol li p:after 
+{
+  content: counter(item);
+  position: absolute;
+  top:20;
+  left: 1rem;
+  font-size: 10rem;
+  color:black;
+  opacity:0.3;
+}   
+
+ol li {
+  position:relative;
+}
+
+/* Stucture */
+
+body.animate {
+  margin:0;
+  min-width:100%;
+}
+
+.wrapper {
+  width:960px;
+  margin:0 auto;
+}
+
+header {
+  background-color:black;
+  color:white;
+  padding:15px 0;
+  margin:20px 0;
+}
+
+h1.title, span.sTitle {
+  margin:0;
+  padding-bottom:5px;
+}
+
+span.sTitle {
+  padding-bottom:10px; 
+  color:yellow;
+  font-size:13px;
+}
+
+.wrapper .subTitle {
+  margin-top: -10px;
+}
+
+.recipeimg {
+  width:290px; margin:0 40px 0 0;
+  float:left;
+}
+
+ul.ingred {
+  list-style-type: none;
+}
+
+li.group img {
+  float:left;
+}
+
+section ol li p {
+  float:left;
+  width:50%;
+}
+
+section ol li img {
+  float:left;
+}
+/* Background animation */
+
+.animate {
+  -webkit-animation: animate_bg 5s;
+  animation: animate_bg 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+  0%   {background:lightgray;}
+  50%  {background:lightblue;}
+  100% {background:lightgreen;}
+}
+
+@-webkit-keyframes animate_bg {
+  0%   {background:lightgray;}
+  50%  {background:lightblue;}
+  100% {background:lightgreen;}
+}
+
+/* Adjustments */
+
+.row:before,
+.row:after,
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+  margin-bottom:20px;
+}
+
+.row:after,
+.group:after {
+  clear: both;
+}
+
+.row,
+.group {
+  zoom: 1;
+}
+
+/* Media Queries */
+
+@media (min-width: 40rem) {
+  body {
+    max-width:40rem;
+    margin: 0 auto; /* Centre it horizontally */
+  }
+} 
+
+@media screen and (max-width:480px) { 
+  img.recipeimg {
+    width:100% !important;
+    float:none;
+    position:absolute !important;
+    left:0;
+    clear:both;
+  }
+  
+  li.group img {
+    float:none;
+    max-width:100%;
+  }
+}
+  
