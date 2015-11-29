@@ -149,14 +149,6 @@ section ol li img {
 } 
 
 @media screen and (max-width:480px) { 
-  img.recipeimg {
-    width:100% !important;
-    float:none;
-    position:absolute !important;
-    left:0;
-    clear:both;
-  }
-  
   li.group img {
     float:none;
     max-width:100%;
