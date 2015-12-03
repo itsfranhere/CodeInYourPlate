@@ -2,6 +2,8 @@
 
 <h3 style="padding-bottom:10px">Smoked salmon omelette with sprouts</h3>
 
+<p> View Thimble link <a href="https://thimble.mozilla.org/user/itsfranhere/63760">here</a> 
+
 <p style="margin-top: -10px">Smoked salmon omelette with sprouts, is a tasty brunch recipe from Jamie Oliver ando also a typical dish of the french cuisine.</p>
 
 <img src="https://jamieoliverprod.s3.amazonaws.com/recipe-database/recipe_single/CGHS8dAVaaO96LnQroZKAm.jpg"style="width:290px; float:left; margin:0 30px 0 0">
